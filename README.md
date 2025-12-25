@@ -1,6 +1,6 @@
 # BrainDrive Evaluator Plugin
 
-Automates end-to-end evaluation of AI coaching models using the WhyFinder plugin flow.
+Automates end-to-end evaluation of open-source and closed-source models using the WhyFinder-IKIGAI plugin flow.
 
 ## Features
 
@@ -20,24 +20,6 @@ Automates end-to-end evaluation of AI coaching models using the WhyFinder plugin
 - **Multi-Model Support**: Evaluate multiple models simultaneously
 - **Leaderboard**: Ranked results with scenario-wise score breakdown
 
-## Installation
-
-1. Copy the plugin to your BrainDrive plugins directory:
-   ```
-   backend/plugins/shared/BrainDriveEvaluator/v1.0.0/
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Build the plugin:
-   ```bash
-   npm run build
-   ```
-
-4. Configure your OpenAI API key in the plugin settings panel
 
 ## Usage
 
@@ -51,18 +33,19 @@ Automates end-to-end evaluation of AI coaching models using the WhyFinder plugin
    - **Comments**: Judge feedback, pros/cons, token usage
    - **Scenarios**: Per-scenario score breakdown
 
-## Requirements
+## Requirements (Mandatory)
 
-- BrainDrive Core with WhyFinder plugin installed
+- BrainDrive Core with the WhyFinder plugin installed
 - OpenAI API key (for synthetic user and judge)
 - Models configured in BrainDrive (OpenRouter, Ollama, etc.)
+
 
 ## Configuration
 
 | Setting | Description | Default |
 |---------|-------------|---------|
 | Temperature | Model creativity (0 = deterministic) | 0 |
-| Synthetic User | Model for simulating human responses | gpt-4o-mini |
+| Synthetic User | Model for simulating human responses | gpt-4o |
 | Judge Model | Model for evaluation scoring | gpt-4o |
 
 ## License
@@ -71,5 +54,5 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## Author
 
-Navaneeth Krishnan
+BrainDrive - Navaneeth Krishnan 
 
