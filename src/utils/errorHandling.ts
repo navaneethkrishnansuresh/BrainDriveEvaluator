@@ -529,7 +529,7 @@ export const globalErrorHandler = new ErrorHandler(
     userNotification: true
   },
   {
-    pluginId: 'PluginTemplate', // TODO: Update with your plugin ID
+    pluginId: 'BrainDriveEvaluator',
     component: 'global'
   }
 );

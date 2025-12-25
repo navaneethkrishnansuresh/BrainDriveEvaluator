@@ -112,7 +112,7 @@ export class SettingsExample extends React.Component<SettingsExampleProps, Setti
           
           {/* Header */}
           <div className="settings-header">
-            <h2>This is the Settings Plugin Template!</h2>
+            <h2>BrainDrive Evaluator Settings</h2>
             <p>A simple starting point for creating BrainDrive settings plugins.</p>
           </div>
 
